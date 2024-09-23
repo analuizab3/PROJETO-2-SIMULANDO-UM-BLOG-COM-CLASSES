@@ -1,14 +1,11 @@
 const Author = require('./Author')
 
-// Criando o autor
-const john = new Author('John Wick')
+const john = new Author('Violetta Fernandes')
 
-// Criando uma postagem
-const post = john.createPost('As crônicas de John Wick', 'lero lero lero lero')
+const post = john.createPost('Vende-se uma Família', 'Livro de romance infanto-juvenil')
 
-// Criando comentários
-post.addComments('juan', 'Eu amo as crônicas dele ai')
-post.addComments('Alex', 'Eu odeio as crônicas desse elemento')
+post.addComments('Júlia', 'Muito bom!')
+post.addComments('Glória', 'Muito ruim!!!')
 
 console.log(john)
 console.log(post)
